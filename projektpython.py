@@ -98,8 +98,8 @@ user.load_tasks('tasks.json')
 
 #fråga användaren om de vill lägga till en ny uppgift
 while True:
-    title = input("Skriv din uppgift (eller skriv 'klar' för att avsluta:)")
-    if title.lower() == 'klar':
+    title = input("Skriv din uppgift (eller skriv 'nej' för att avsluta):")
+    if title.lower() == 'nej':
         break
     priority = input ("Ange prioritet (High, Medium, Low):")
 
@@ -107,7 +107,5 @@ while True:
     new_task = Task(title, priority)
 
 user.categories[0].add_task(new_task)
-
 #spara de uppdaterade uppgifterna till filen igen
 user.save_tasks('tasks.json')
-                   
