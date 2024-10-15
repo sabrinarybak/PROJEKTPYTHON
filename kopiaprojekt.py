@@ -107,6 +107,6 @@ while True:
     new_task = Task(title, priority)
 
 user.categories[0].add_task(new_task)
-
+#tet
 #spara de uppdaterade uppgifterna till filen igen
 user.save_tasks('tasks.json')
