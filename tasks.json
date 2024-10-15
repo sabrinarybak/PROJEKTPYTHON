@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Hemmasysslor",
+        "tasks": [
+            {
+                "title": "Handla hundmat",
+                "priority": "High",
+                "is_completed": false
+            },
+            {
+                "title": "Dammsuga vardagsrummet",
+                "priority": "Medium",
+                "is_completed": false
+            },
+            {
+                "title": "Handla nya bestick",
+                "priority": "Low",
+                "is_completed": false
+            }
+        ]
+    }
+]
